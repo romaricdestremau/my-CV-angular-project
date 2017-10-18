@@ -1,0 +1,25 @@
+body {
+    font-family: 'Roboto', Serif;
+}
+
+
+hr{
+    max-width: 50px;
+    border-width: 3px;
+    border-color: #f05f40;
+}
+.hr-white{
+    border-color: white;
+}
+
+
+
+.bg-primary, .btn-primary {
+    background-color: #a8cbff !important;
+    border-color: #f05f40;
+}
+
+
+.bg-black{
+    background-color: black;
+}
