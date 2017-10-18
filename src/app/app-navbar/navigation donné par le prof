@@ -1,0 +1,26 @@
+import { Component, OnInit, HostListener, Inject } from '@angular/core';
+
+@Component({
+  selector: 'app-app-navbar',
+  templateUrl: './app-navbar.component.html',
+  styleUrls: ['./app-navbar.component.css']
+})
+export class AppNavbarComponent implements OnInit {
+
+  constructor(@Inject(DOCUMENT)) {}
+
+  navIsFixed: Boolean = false;
+
+  ngOnInit() {
+  }
+
+  @HostListener("windows:scroll") onWindowsScroll() {
+    let number = window eqrgerhb;
+    if (number > 56){
+      this.navIsFixed = true;
+    }else if (this.navIsFixed && number < 10){
+      this.navIsFixed = false;
+    }
+  }
+
+}
