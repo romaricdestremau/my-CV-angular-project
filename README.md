@@ -1,5 +1,7 @@
 # MyCV
 
+Real Name: my-CV-angular-project
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.2.
 
 ## Development server
